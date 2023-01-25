@@ -1,0 +1,238 @@
+/* *{
+    height: 600vh;
+} */
+.contener{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+   
+}
+.nav-left img{
+    height: 35px;
+    margin-left: 180px;
+    margin-top: 13px;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+}
+.tools{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+   align-items: center;
+    
+}
+.nav-right ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 18px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight:600;
+}
+.nav-right ul li:hover{
+    color:aqua;
+}
+
+/* section ::part */
+
+.one-part {
+    margin-top: -95px;
+    width: 100%;
+    height: 63vh;
+    background-color: black;
+    /* color:aqua; */
+    color: white;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    background-image: url('./phone\ img.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y:100px;
+}
+.font{
+    margin-left: 300px;
+    font-size: 6rem;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+.font-main{
+    margin-left: 300px;
+    font-weight: 600;      
+}
+
+.font-main span{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+}
+.font-main a{
+    text-decoration: none;
+    color:aqua;
+    color: white;
+}
+.font-main span:hover{
+  border: 1px solid aqua;
+  
+}
+.mobile-imf img {
+    width: 150px;
+    margin-top: 300px;
+}
+
+.why-spotift{
+    display: flex;
+    justify-content: space-between;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    margin: 80px;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.why-spotift img{
+    width: 300px;
+    
+}
+
+.same-1{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.why-spotift div p{
+    text-align: center;
+    align-items: center;
+}
+
+.same-2 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.part-0 p{
+    text-align: center;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.free{
+    height: 63vh;
+    background-color: black;
+    color: white;
+}
+
+.free-gana p{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    padding: 150px 0;
+}
+
+.ready{
+    height: 60vh;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+.ready p{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.text-middle{
+    padding: 65px 0;
+} 
+/* footer tools */
+
+.contener-2 {
+    background-color: black;
+    color: white;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    height: 63vh;
+}
+
+.footer-tools{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+.footer-left img{
+    width: 150px;
+    margin-left: 50px;
+}
+.footer-middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* right navigation */
+.left-middle ul{
+    padding: 5px 0;
+    font-size: 1.1rem;
+    list-style: none;
+    font-weight: 600;
+}
+
+.left-middle ul li{
+    font-size: 0.9rem;
+    margin: 15px;  
+}
+
+/* middle navigation  */
+
+.midle-middle ul{
+    padding: 5px 0;
+    font-size: 1.1rem;
+    list-style: none;
+    font-weight: 600;
+}
+
+.midle-middle ul li{
+    font-size: 0.9rem;
+    margin: 15px;  
+}
+
+/* right middle navigation */
+.right-middle ul{
+    padding: 5px 0;
+    font-size: 1.1rem;
+    list-style: none;
+    font-weight: 600;
+    padding: 30px;
+    margin-top: -10px;
+}
+
+.right-middle  ul li{
+    font-size: 0.9rem;
+    margin: 15px;  
+}
+
+.footer-right img{
+    height: 50px;
+    margin: 10px;
+}
+
+.left-middle li:hover{
+    color: aqua;
+}
+
+.midle-middle li:hover{
+    color: aqua;
+}
+
+.right-middle li:hover {
+    color: aqua;
+}
+
+
+
+
+
+
+
